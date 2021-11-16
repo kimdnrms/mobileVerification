@@ -54,6 +54,7 @@
  - chrome 95.0.4638.69
 
 3. Dependencies(dependencies)
+  npm init
   npm install --save-dev webpack
   npm install --save-dev webpack-cli
   npm install --save-dev webpack-dev-server
@@ -71,6 +72,23 @@
     - babel-jset@27.3.1
   npm install --save-dev jest
     - jest@27.3.1
+  npm install --save-dev sass
+  npm install --save-dev node-sass
+    - sass@1.43.4
+    - node-sass@6.0.1
+  npm install --save-dev css-loader
+  npm install --save-dev file-loader
+  npm install --save-dev html-loader
+  npm install --save-dev sass-loader
+  npm install --save-dev html-loader
+  npm install --save-dev style-loader
+  npm install --save-dev url-loader
+    - css-loader@6.5.1
+    - file-loader@6.2.0
+    - html-loader@3.0.1
+    - sass-loader@12.3.0
+    - style-loader@3.3.1
+    - url-loader@4.1.1
 
 4. 설치 및 실행 방법(installation)
 
