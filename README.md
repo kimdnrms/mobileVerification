@@ -61,7 +61,7 @@
     - webpack@5.64.0
     - webpack-cli@4.9.1
     - webpack-dev-server@4.5.0
-  npm install --save-dev @babel/core @babel/cli
+  npm install --save-dev @babel/core @babel/cli @babel/preset-env
   npm install --save-dev babel-loader
   npm install --save-dev babel-preset-env
   npm install --save-dev babel-jest
@@ -69,6 +69,7 @@
     - bable/cli@7.16.0
     - babel-loader@8.2.3
     - babel-preset-env@1.7.0
+    - babel/preset-env@7.16.4
     - babel-jset@27.3.1
   npm install --save-dev jest
     - jest@27.3.1
@@ -89,7 +90,14 @@
     - sass-loader@12.3.0
     - style-loader@3.3.1
     - url-loader@4.1.1
+  npm install --save-dev html-webpack-plugin
+  npm install --save-dev mini-css-extract-plugin
+    - html-webpack-plugin@5.5.0
+    - mini-css-extract-plugin@2.4.4
 
 4. 설치 및 실행 방법(installation)
+  yarn install 
+  npm i 
+  npm run server
 
 5. 문제 해결 전략(solution)
